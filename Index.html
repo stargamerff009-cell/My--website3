@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>আমার প্রোফাইল</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+header {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #3b82f6, #9333ea);
+}
+
+.profile-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 4px solid white;
+  margin-top: 15px;
+  object-fit: cover;
+}
+
+h1 {
+  margin: 10px 0;
+  font-size: 2.5em;
+}
+
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h2 {
+  color: #38bdf8;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background: #334155;
+}
+
+.skills span {
+  display: inline-block;
+  background: #3b82f6;
+  padding: 8px 15px;
+  margin: 5px;
+  border-radius: 20px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 25px;
+  background: #9333ea;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #7e22ce;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #020617;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>তোমার নাম</h1>
+  <p>Web Learner | Gamer | Student</p>
+  
+  <!-- এখানে নিজের ছবি বসাও -->
+  <img src="profile.jpg" class="profile-img">
+</header>
+
+<section>
+  <div class="container">
+    <h2>আমার সম্পর্কে</h2>
+    <div class="card">
+      <p>আমি একজন প্রযুক্তি ভালোবাসি এমন মানুষ। নতুন কিছু শেখা, ওয়েবসাইট বানানো এবং গেম খেলা আমার খুব পছন্দ।</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>আমার দক্ষতা</h2>
+    <div class="card skills">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>Gaming</span>
+      <span>Design</span>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>যোগাযোগ</h2>
+    <div class="card">
+      <p>Email: tomar@email.com</p>
+      <p>Phone: 01XXXXXXXXX</p>
+      <a href="https://facebook.com" class="btn">Facebook</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 STARZ  </p>
+</footer>
+
+</body>
+</html>
